@@ -5,7 +5,7 @@ on:
   schedule:
     # Runs at 13:00 UTC every day. You can change this.
     # Use a CRON calculator to get the right time for you.
-    - cron: '0 13 * * *'
+    - cron: '32 6 * * *'
   # This line allows you to manually run the workflow from the Actions tab
   workflow_dispatch:
 
