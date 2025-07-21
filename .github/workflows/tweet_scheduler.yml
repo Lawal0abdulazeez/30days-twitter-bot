@@ -3,7 +3,7 @@ name: 30-Day Tweet Scheduler
 # This action will run on a schedule.
 on:
   schedule:
-    - cron: '50 6 * * *'
+    - cron: '00 8 * * *'
   workflow_dispatch:
 
 jobs:
