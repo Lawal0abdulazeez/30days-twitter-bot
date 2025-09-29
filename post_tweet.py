@@ -20,7 +20,7 @@ def get_twitter_client():
     return client
 
 # --- Core Logic ---
-def post_next_tweet(csv_file='tweets.csv'):
+def post_next_tweet(csv_file='tweets2.csv'):
     """Finds the next unposted tweet, posts it, and updates the CSV."""
     # 1. Read the tweet schedule
     try:
